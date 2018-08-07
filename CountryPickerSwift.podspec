@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CountryPickerSwift'
-  s.version          = '1.7.1'
+  s.version          = '1.7.2'
   s.summary          = 'Swift CountryPicker'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,10 @@ TODO: CountryCode Picker
   s.social_media_url = 'https://twitter.com/lulz_ua'
   s.ios.deployment_target = '8.0'
   s.module_name  = 'CountryPicker'
-  s.source_files = 'CountryPicker/Classes/*'
+  s.source_files = 'CountryPicker/Classes/*.{.swift}'
   s.resource_bundles = {
-    'CountryPicker' => ['CountryPicker/Assets/CountryPicker.bundle/*']
+    'CountryPicker' => ['CountryPicker/Assets/CountryPicker.bundle/*', 'CountryPicker/Classes/CountryView.xib']
   }
-  s.resource = ['CountryPicker/Classes/CountryView.xib']
   #s.dependency 'libPhoneNumber-iOS', '~> 0.8'
 
 end
