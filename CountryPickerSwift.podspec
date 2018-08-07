@@ -28,7 +28,7 @@ TODO: CountryCode Picker
   s.social_media_url = 'https://twitter.com/lulz_ua'
   s.ios.deployment_target = '8.0'
   s.module_name  = 'CountryPicker'
-  s.source_files = 'CountryPicker/Classes/*.{.swift}'
+  s.source_files = 'CountryPicker/Classes/*.{swift}'
   s.resource_bundles = {
     'CountryPicker' => ['CountryPicker/Assets/CountryPicker.bundle/*', 'CountryPicker/Classes/CountryView.xib']
   }
