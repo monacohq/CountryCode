@@ -32,7 +32,7 @@ TODO: CountryCode Picker
   s.resource_bundles = {
     'CountryPicker' => ['CountryPicker/Assets/CountryPicker.bundle/*']
   }
-
+  s.resource = ['CountryPicker/Classes/CountryView.xib']
   #s.dependency 'libPhoneNumber-iOS', '~> 0.8'
 
 end
